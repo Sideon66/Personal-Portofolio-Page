@@ -1,0 +1,134 @@
+@media (max-width: 84em) {
+  .header__title {
+    max-width: 90rem;
+  }
+}
+
+@media (max-width: 75em) {
+  .modal__form {
+    display: flex;
+    flex-direction: column;
+  }
+  .portofolio {
+    grid-template-columns: 1fr;
+    margin: 0 8rem;
+  }
+
+  .f1-img {
+    order: 0;
+    width: 1 -1;
+  }
+  .f1-text {
+    order: 1;
+  }
+  .f2-img {
+    order: 2;
+  }
+  .f2-text {
+    order: 3;
+  }
+  .f3-img {
+    order: 4;
+  }
+  .f3-text {
+    order: 5;
+  }
+  .modal__form label {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .header__title {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  .header__img {
+    width: 40rem;
+  }
+  .cell-2 {
+    order: -1;
+  }
+  .cell-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 50em) {
+  .nav__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    height: 100vh;
+    width: 20rem;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 10rem 0 0 10px;
+    transition: 0.3s;
+  }
+  .control {
+    display: flex;
+  }
+
+  .nav__links.active {
+    right: 0rem;
+  }
+
+  .nav__links li {
+    margin-left: 0;
+    margin: 2rem;
+  }
+
+  .menu-btn {
+    stroke: var(--color-primary);
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    stroke: var(--color-primary);
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media (max-width: 34.5em) {
+  .display {
+    display: none;
+  }
+  .header__img {
+    width: 30rem;
+  }
+
+  .menu-btn {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 25.5em) {
+  html {
+    font-size: 40%;
+  }
+}
