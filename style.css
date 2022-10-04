@@ -70,6 +70,25 @@ body {
   font-weight: 500;
 }
 
+.btns-group {
+  display: flex;
+  gap: 2rem;
+}
+
+.link-direct {
+  color: var(--color-primary);
+}
+
+.btn-linkedin {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.btn-github {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
 .btn {
   display: inline-block;
   background-color: var(--color-primary);
